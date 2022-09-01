@@ -1,4 +1,4 @@
-class Node:
+class Node
     def __init__(self, data=None):
         self.data = data
         self.previous = self
@@ -135,5 +135,5 @@ for i in range(len(operations)):
     elif operations[i] == 'delete_at_index':
         result.append(obj.delete_at_index(data[i]))
 
-print(result
+print(result)
 
